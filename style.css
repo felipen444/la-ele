@@ -1,11 +1,12 @@
+
 * {
     margin: 0;
     padding: 0;
 }
 
 .cabecalho {
-    background-color: #616588;
-    color: rgb(18, 18, 212);
+    background-color: #000a97;
+    color: rgb(14, 1, 185);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -31,61 +32,9 @@
  }
 
 .escola{
-    background-image: linear-gradient(#616588,#303881);
+    background-image: linear-gradient(#2e3fd8,#11185a);
     color: white;
-    display: flex;* {
-        margin: 0;
-        padding: 0;
-    }
-    
-    .cabecalho {
-        background-color: #616588;
-        color: rgb(18, 18, 212);
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 24px 0;
-    }
-    
-    .cabecalho-imagem{
-        width: 20%;* {
-            margin: 0;
-            padding: 0;
-        }
-        
-        .cabecalho {
-            background-color: #616588;
-            color: rgb(18, 18, 212);
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            padding: 24px 0;
-        }
-        
-        .cabecalho-imagem{
-            width: 20%;
-        }
-        
-        .cabecalho-lista-item{
-            display: inline-block;
-            margin: 0 30px;
-            font-size: 24px;
-        }
-        
-        .escola-imagem{
-            width: 25%;
-        }
-        
-          body{
-            font-family: 'Poppins', san
-    }
-    
-    .escola-imagem{
-        width: 25%;
-    }
-    
-      body{
-        font-family: 'Poppins', san
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px 0;
@@ -118,4 +67,14 @@
 .estudante-todos{
     display: grid;
     grid-template-columns: 16% 16% 16% 16% 16%;
-}ADME.md
+}
+
+.rodape{
+    background-color:#1d2780 ;
+    text-align: center;
+}
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+    
+}
